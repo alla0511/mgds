@@ -1,0 +1,47 @@
+
+h1 {
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+header h1 {
+    text-align: center;
+    color: #FFF;
+}
+header {
+    background-color: rgb(223, 184, 13);
+    padding: 15px;
+    width: 1100px;
+}
+header img {
+    width: 300px;
+    height: 89px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    mix-blend-mode: darken;
+
+}a {
+    text-decoration: none;
+    background-color: navy;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+a::before {
+    content: url("/uploads/2021/03/click-38743_1280%201_0_1614962641.png");
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    opacity: 0.5;
+}
+
+a:hover::before {
+    content: url("/uploads/2021/03/click-38743_1280%201_0_1614962641.png");
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    opacity: 1;
+}
+
